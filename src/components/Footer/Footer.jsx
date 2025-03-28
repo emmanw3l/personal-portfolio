@@ -29,7 +29,7 @@ export default function Footer() {
               </div>
               <div className="btn linkedin">
                 <a href={myLinks.instagram}>
-                  <Instagram />
+                  <instagram />
                 </a>
               </div>
               <div className="btn gmail">
