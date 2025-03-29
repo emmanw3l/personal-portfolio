@@ -26,14 +26,14 @@ export default function ProjectCard({
       <div className="project-icons">
         {liveLink && <div className="live">
           <p>
-            <a href={liveLink}>
+            <a href={liveLink} target="_blank" rel="noopener noreferrer">
               Live <Link />
             </a>
           </p>
         </div>}
         {githubLink && <div className="github">
           <p>
-            <a href={githubLink}>
+            <a href={githubLink}target="_blank" rel="noopener noreferrer">
               Code <Github />
             </a>
           </p>
