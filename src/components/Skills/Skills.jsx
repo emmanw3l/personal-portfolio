@@ -6,13 +6,13 @@ import {
   html,
   css,
   js,
-  // ts,
+  ts,
   react,
   // tailwind,
   git,
   github,
   vercel,
-  // vite,
+  vite,
   python,
   vscode,
   pycharm,
@@ -22,13 +22,14 @@ import {
   nodejs,
   mysql,
   // mongodb,
+  Excel,
 } from "../../helper/icons";
 
 const skillsData = [
   { name: "HTML", icon: html, category: "Languages" },
   { name: "CSS", icon: css, category: "Languages" },
   { name: "JavaScript", icon: js, category: "Languages" },
-  // { name: "TypeScript", icon: ts, category: "Languages" },
+  { name: "TypeScript", icon: ts, category: "Languages" },
   { name: "Node JS", icon: nodejs, category: "Languages" },
   { name: "Python", icon: python, category: "Languages" },
   { name: "React", icon: react, category: "Frameworks" },
@@ -41,9 +42,10 @@ const skillsData = [
   { name: "Git", icon: git, category: "Tools" },
   { name: "GitHub", icon: github, category: "Tools" },
   { name: "Vercel", icon: vercel, category: "Tools" },
-  // { name: "Vite", icon: vite, category: "Tools" },
-  { name: "VS Code", icon: vscode, category: "Tools" },
-  { name: "PyCharm", icon: pycharm, category: "Tools" },
+  { name: "Vite", icon: vite, category: "Tools" },
+  { name: "VS Code", icon: vscode, category: "Applications" },
+  { name: "PyCharm", icon: pycharm, category: "Applications" },
+  {name: "Excel", icon: Excel, category: "Applications"}
 ];
 
 const SkillSection = ({ title, skills }) => (
@@ -88,6 +90,7 @@ export default function Skills() {
     (skill) => skill.category === "Databases"
   );
   const tools = skillsData.filter((skill) => skill.category === "Tools");
+  const apps = skillsData.filter((skill) => skill.category === "Applications");
 
   return (
     <main id="skills">
@@ -107,6 +110,7 @@ export default function Skills() {
         <SkillSection title="Frameworks" skills={frameworks} />
         <SkillSection title="Databases" skills={databases} />
         <SkillSection title="Tools" skills={tools} />
+        <SkillSection title="Applications" skills={apps} />
       </section>
     </main>
   );

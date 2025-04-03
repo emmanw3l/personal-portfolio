@@ -23,7 +23,7 @@
   padding: 5px 7.5%;
 }
 .logo a{
-    color: var(--color-primary-100);
+    color: var(--text-color);
     font-size: 1.8rem;
     font-weight:600;
 }
@@ -35,7 +35,7 @@
 }
 
 .links a{
-    color: initial;
+    color: var(--text-color);
     font-size: var(--p-font-small-1);
     position: relative;
 }
@@ -47,7 +47,7 @@
   display: block;
   width: 0;
   height: 2px;
-  background-color: var(--color-primary-100);
+  background-color: var(--text-color);
   transition: var(--transition-3);
 }
 .links a:hover::after{

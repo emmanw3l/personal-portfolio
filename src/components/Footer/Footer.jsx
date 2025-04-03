@@ -1,8 +1,9 @@
 import "./Footer.css";
-import instagram from "../../assets/Icons/instagram";
+import Instagram from "../../assets/Icons/Instagram";
 import Gmail from "../../assets/Icons/Gmail";
 import Github from "../../assets/Icons/Github";
 import Whatsapp from "../../assets/Icons/Whatsapp";
+import Twitter from "../../assets/Icons/Twitter";
 import { myLinks } from "../../helper/links";
 
 export default function Footer() {
@@ -13,7 +14,7 @@ export default function Footer() {
           <div className="text">
             <div className="logo">
               <p>
-                <a href="#">Emmanuel.</a>
+                <a href="#about">Emmanuel.</a>
               </p>
             </div>
             <div className="links">
@@ -27,9 +28,9 @@ export default function Footer() {
                   <Github />
                 </a>
               </div>
-              <div className="btn linkedin">
+              <div className="btn instagram">
                 <a href={myLinks.instagram}>
-                  <instagram />
+                  <Instagram />
                 </a>
               </div>
               <div className="btn gmail">
@@ -40,6 +41,11 @@ export default function Footer() {
               <div className="btn whatsapp">
                 <a href={myLinks.whatsapp}>
                   <Whatsapp />
+                </a>
+              </div>
+              <div className="btn ">
+                <a href={myLinks.whatsapp}>
+                  <Twitter />
                 </a>
               </div>
             </div>

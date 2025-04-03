@@ -1,5 +1,3 @@
-export default function instagram() {
-    return (
-      <i className="fa-brands fa-instagram"></i>
-    )
-  }
+export default function Instagram() {
+  return <i className="fa-brands fa-instagram"></i>;
+}

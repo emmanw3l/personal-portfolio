@@ -2,7 +2,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useEffect, useState } from "react";
 import "./Home.css";
-import Linkedin from "../../assets/Icons/Linkedin";
+// import Linkedin from "../../assets/Icons/Linkedin";
+import Twitter from "../../assets/Icons/Twitter";
 import Gmail from "../../assets/Icons/Gmail";
 import Github from "../../assets/Icons/Github";
 import NavUp from "../../assets/Icons/NavUp";
@@ -118,8 +119,8 @@ export default function Home() {
             custom={7.5}
             className="btn linkedin"
           >
-            <a href={myLinks.whatsapp}>
-              <Whatsapp />
+            <a href={myLinks.twitter}>
+              <Twitter />
             </a>
           </motion.div>
           <motion.div

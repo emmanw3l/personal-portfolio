@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import aboutImg from "../../assets/img/img1.jpeg";
+import { illustration } from "../../helper/icons";
 import "./About.css";
 import { myLinks } from "../../helper/links";
 import { motion } from "framer-motion";
@@ -44,7 +45,8 @@ export default function About() {
             custom={3}
             className="about-img"
           >
-            <img src={aboutImg} alt="emmanuel" />
+            <img src={illustration} alt="emmanuel" />
+            {/* <img src={aboutImg} alt="emmanuel" /> */}
           </motion.div>
           <div className="about-text">
             <motion.div

@@ -17,6 +17,8 @@ import express from "../assets/skills/express.svg";
 import firebase from "../assets/skills/firebase.svg";
 import mongodb from "../assets/skills/mongodb.svg";
 import mysql from "../assets/skills/mysql.svg";
+import Excel from "../assets/skills/Excel.svg";
+import illustration from "../assets/Illustration2.svg";
 
 export {
   html,
@@ -38,4 +40,6 @@ export {
   firebase,
   mongodb,
   mysql,
+  Excel,
+  illustration
 };

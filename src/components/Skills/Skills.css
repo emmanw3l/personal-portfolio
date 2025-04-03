@@ -31,6 +31,7 @@
 }
 .skills-section .section-title{
     text-align: center;
+    color:white;
     font-size: var(--p-font-small-1);
 }
 .skills-info .icon:hover{
@@ -39,11 +40,13 @@
 }
 .skills-info .tools,.skills-info .lang, .skills-info .frameworks{
     text-align: center;
+    
 }
 
 .skills-info p{
     font-size: .75rem;
     text-align: center;
+    color: black;
 }
 .skills-info .lang, .skills-info .frameworks{
     margin-bottom: 30px;
@@ -97,3 +100,4 @@
         font-size: .9rem;
     }
 }
+

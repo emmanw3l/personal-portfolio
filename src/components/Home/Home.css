@@ -90,7 +90,7 @@
 .home-links .btn i {
     font-size: 1.3rem;
     transition: var(--transition-1) ;
-    color: black;
+    color: #fefefe;
 }
 .home .home-links .btn:hover{
     background: var(--color-primary-100);

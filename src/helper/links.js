@@ -3,5 +3,6 @@ export const myLinks = {
     gmail: "mailto:neonyinyechi@gmail.com",
     github: "https://github.com/emmanw3l",
     linkedin: "#",
+    twitter: "https://x.com/emmanw3l",
     whatsapp: "https://wa.me/+2349023990244"
 }
