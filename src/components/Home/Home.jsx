@@ -13,7 +13,8 @@ import { motion } from "framer-motion";
 import { variants1, variants2, variants4 } from "../../animations/variants";
 import Lottie from "lottie-react";
 import dev from "../../animations/json/dev.json";
-import Whatsapp from "../../assets/Icons/Whatsapp";
+// import Whatsapp from "../../assets/Icons/Whatsapp";
+import Instagram from "../../assets/Icons/Instagram";
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
   const [typing, setTyping] = useState(true);
@@ -136,6 +137,19 @@ export default function Home() {
             <a href={myLinks.gmail}>
               <Gmail />
             </a>
+          </motion.div>
+          <motion.div
+          variants={variants2}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+            custom={7.5}
+            className="btn linkedin">
+              <a href={myLinks.instagram}>
+                <Instagram />
+              </a>
           </motion.div>
         </div>
       </div>

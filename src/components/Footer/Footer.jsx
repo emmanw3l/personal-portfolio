@@ -1,5 +1,5 @@
 import "./Footer.css";
-// import Instagram from "../../assets/Icons/Instagram";
+import Instagram from "../../assets/Icons/Instagram";
 import Gmail from "../../assets/Icons/Gmail";
 import Github from "../../assets/Icons/Github";
 import Whatsapp from "../../assets/Icons/Whatsapp";
@@ -28,11 +28,11 @@ export default function Footer() {
                   <Github />
                 </a>
               </div>
-              {/* <div className="btn instagram">
+              <div className="btn instagram">
                 <a href={myLinks.instagram}>
                   <Instagram />
                 </a>
-              </div> */}
+              </div>
               <div className="btn gmail">
                 <a href={myLinks.gmail}>
                   <Gmail />
