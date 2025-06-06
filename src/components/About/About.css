@@ -19,7 +19,7 @@
     margin-bottom: 15px;
 }
 .about-text .last a{
-    color:var(--color-primary-200);
+    color:var(--color-primary-300);
 }
 .about-text .last a:hover{
     text-decoration: underline;

@@ -37,11 +37,13 @@
 
 }
 .footer .home-links .btn i{
-    color: black;
+    color: var(--color-primary-200);
     transition: none;
 }
 .footer .home-links .btn i:hover{
-    color: var(--color-primary-100);
+    color: black;
+    font-size: 1.5rem;
+    transition: 0.3s;
 }
 .footer .home-links .btn a{
     color: initial;

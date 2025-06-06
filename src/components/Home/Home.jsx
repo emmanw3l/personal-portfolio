@@ -71,7 +71,7 @@ export default function Home() {
                 "Data Analyst",
                 "Cyber security expert",
               ]}
-              loop={4}
+              loop={300}
               cursor={typing}
               typeSpeed={150}
               deleteSpeed={100}

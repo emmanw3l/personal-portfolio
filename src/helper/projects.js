@@ -23,5 +23,13 @@ export const projectInfo = [
     liveLink: "https://nwabueze-emmanuel.vercel.app",
     githubLink: "https://github.com/emmanw3l/personal-portfolio",
   },
+  {
+    name: "Emmanuel's poetry",
+    tools: ["Typescript", "React Js", "CSS", "React-router-DOM", "Bootstrap"],
+    details:
+    "A collection of poems I've written over the years",
+    liveLink: "",
+    githubLink: "https://github.com/emmanw3l/poetry.git",
+  }
 
 ];

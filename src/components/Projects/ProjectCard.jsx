@@ -21,7 +21,7 @@ export default function ProjectCard({
         })}
       </div>
       <div className="project-info">
-        <p>{details}</p>
+        <p>{details}</p> 
       </div>
       <div className="project-icons">
         {liveLink && <div className="live">
@@ -37,6 +37,7 @@ export default function ProjectCard({
               Code <Github />
             </a>
           </p>
+          
         </div>}
       </div>
     </div>
