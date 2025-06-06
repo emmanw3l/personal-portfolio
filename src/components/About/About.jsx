@@ -1,10 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
-import aboutImg from "../../assets/img/img1.jpeg";
-import { illustration } from "../../helper/icons";
+// import aboutImg from "../../assets/img/img1.jpeg";
+// import { illustration } from "../../helper/icons";
+import illustrate from "../../assets/illustrate.json"
 import "./About.css";
 import { myLinks } from "../../helper/links";
 import { motion } from "framer-motion";
 import { variants1, variants3 } from "../../animations/variants";
+// import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import Lottie from "lottie-react";
 
 export default function About() {
   return (
@@ -45,7 +48,11 @@ export default function About() {
             custom={3}
             className="about-img"
           >
-            <img src={illustration} alt="emmanuel" />
+
+            <Lottie animationData={illustrate} className="about-animation" />
+            
+            {/* <DotLottieReact src="src\assets\illustrate.json" loop autoplay /> */}
+            {/* <img src={illustrate} alt="emmanuel" /> */}
             {/* <img src={aboutImg} alt="emmanuel" /> */}
           </motion.div>
           <div className="about-text">
@@ -60,21 +67,23 @@ export default function About() {
               className="info"
             >
               <p>
-                I'm a dedicated and experienced self-taught full-stack web developer
-                based in Anambra, Nigeria. 
-                I’m passionate about building scalable and efficient
-                applications that enhance user experience and solve problems.
+                I'm a dedicated and experienced self-taught full-stack web
+                developer based in Anambra, Nigeria. I’m passionate about
+                building scalable and efficient applications that enhance user
+                experience and solve problems.
               </p>
               <p>
                 When I'm not building, you can often find me playing chess,
-                reading books, writing poetry, taking a stroll, and more often than not 
-                listening to music. To say i'm obsessed would be the understatement of the decade.
+                reading books, writing poetry, taking a stroll, and more often
+                than not listening to music. To say i'm obsessed would be the
+                understatement of the decade.
               </p>
               <p className="last">
                 <span>
                   <a href={myLinks.whatsapp}>Get in touch, </a>
                 </span>
-                and let's create something amazing or just chat about nothing, your choice.
+                and let's create something amazing or just chat about nothing,
+                your choice.
               </p>
             </motion.div>
             <motion.div
@@ -86,8 +95,7 @@ export default function About() {
               }}
               custom={5}
               className="about-contact"
-            >
-            </motion.div>
+            ></motion.div>
           </div>
         </div>
       </section>

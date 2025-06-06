@@ -19,6 +19,8 @@ import mongodb from "../assets/skills/mongodb.svg";
 import mysql from "../assets/skills/mysql.svg";
 import Excel from "../assets/skills/Excel.svg";
 import illustration from "../assets/Illustration2.svg";
+import illustrate from "../assets/illustrate.json";
+
 
 export {
   html,
@@ -41,5 +43,6 @@ export {
   mongodb,
   mysql,
   Excel,
-  illustration
+  illustration,
+  illustrate,
 };
