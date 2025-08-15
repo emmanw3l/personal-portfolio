@@ -14,7 +14,7 @@ import { variants1, variants2, variants4 } from "../../animations/variants";
 import Lottie from "lottie-react";
 import dev from "../../animations/json/dev.json";
 // import Whatsapp from "../../assets/Icons/Whatsapp";
-import Instagram from "../../assets/Icons/Instagram";
+// import Instagram from "../../assets/Icons/Instagram";
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
   const [typing, setTyping] = useState(true);
@@ -138,7 +138,7 @@ export default function Home() {
               <Gmail />
             </a>
           </motion.div>
-          <motion.div
+          {/* <motion.div
           variants={variants2}
             initial="initial"
             whileInView="animate"
@@ -150,7 +150,7 @@ export default function Home() {
               <a href={myLinks.instagram}>
                 <Instagram />
               </a>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
       <motion.div
