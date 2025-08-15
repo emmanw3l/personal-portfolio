@@ -68,9 +68,9 @@ export default function Home() {
           <span>
             <Typewriter
               words={[
-                "Fullstack Developer",
+                "Frontend Developer",
                 "Data Analyst",
-                "Cyber security expert",
+                // "Cyber security expert",
               ]}
               loop={300}
               cursor={typing}

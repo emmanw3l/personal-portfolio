@@ -20,7 +20,9 @@ import mysql from "../assets/skills/mysql.svg";
 import Excel from "../assets/skills/Excel.svg";
 import illustration from "../assets/Illustration2.svg";
 import illustrate from "../assets/illustrate.json";
-
+import powerBi from "../assets/skills/powerBi.svg";
+import tableu from "../assets/skills/tableu.svg";
+import bootstrap from "../assets/skills/bootstrap.svg"
 
 export {
   html,
@@ -45,4 +47,7 @@ export {
   Excel,
   illustration,
   illustrate,
+  powerBi,
+  tableu,
+  bootstrap
 };

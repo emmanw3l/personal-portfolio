@@ -1,3 +1,22 @@
+
+.project-card {
+  overflow: hidden;
+  background: var(--color-surface-mixed-100);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 8px;
+  display: block;
+}
+
+
+
+
 .project-cards{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, auto));
@@ -30,6 +49,7 @@
     font-size: .8rem;
 }
 .project-icons{
+    margin-top: 18px;
     position: absolute;
     bottom: 20px;
     display: flex;
@@ -53,6 +73,9 @@
     text-decoration: underline;
     color: var(--color-primary-200);
 }
+
+
+
 @media screen and (max-width: 450px) {
     .project-cards{
         grid-template-columns: repeat(auto-fit, minmax(180px, auto));
@@ -63,4 +86,23 @@
     .project-icons a{
         font-size: .9rem;
     }
+}
+
+
+/* LIGHT/DARK THEME */
+
+body.dark .project-card{
+    background-color: var(--color-primary-300);
+}
+body.dark .project-card h3, body.dark .project-card p{
+    color: var(--text-color-light);
+}
+
+body.dark .tool-card{
+    background-color:var(--text-color-light) ;
+    color: var(--text-color);
+}
+
+body.dark .project-info p, body.dark .project-icons i{
+    color: var(--text-color-light);
 }

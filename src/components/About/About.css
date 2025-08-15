@@ -1,4 +1,11 @@
-
+.header-bar{
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    /* background: var(--color-primary-100); */
+    transform: translateY(-4px);
+    margin-right: 2px;
+}
 
 .about-det{
     display: flex;
@@ -66,3 +73,16 @@
 }
 
 
+
+/* LIGHT/DARK THEME */
+
+body.dark .header h2, body.dark .header p{
+  color: var(--text-color-light);
+}
+body.dark .header .header-bar{
+  background-color: var(--color-primary-300);
+}
+
+body.dark .about-text p{
+    color: var(--text-color-light);
+}

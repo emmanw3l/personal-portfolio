@@ -35,6 +35,9 @@
    --color-surface-mixed-200:  #f3eaf9;
    --color-surface-mixed-300:  #f4ecfa;
 
+   /* CSS LIGHT THEME PRIMARY COLORS */
+   --text-color-light: #121212;
+
 }
 
 
@@ -113,6 +116,15 @@ label{
   background-color: var(--color-primary-100);
   transition: var(--transition-3);
 }
+
+
+body.dark .App{
+  background-color: #fefefe;
+  color: white;
+}
+
+
+
 @media screen and (max-width:800px){
   .header h2{
     font-size: var(--h2-font-small);

@@ -15,6 +15,7 @@
     background: var(--color-primary-100);
     border-radius: 5px;
     border: none;
+    z-index: 1001;
 }
 .home .nav-up:hover{
     transform: translateY(-10px);
@@ -197,4 +198,25 @@
         width: 90%;
         margin: 0 auto;
     }
+}
+
+
+/* LIGHT/DARK THEME TOGGLES */
+
+body.dark .home-text h1, body.dark .home-text p{
+  color: var(--text-color-light);
+}
+body.dark .home-text span{
+    color: var(--color-primary-300);
+}
+
+body.dark .home-links .btn i{
+    color: var(--text-color-light);
+}
+body.dark .home-links .btn:hover{
+    background-color: var(--color-primary-300);
+}
+
+body.dark .nav-up, body.dark .bar, body.dark{
+    background-color: var(--color-primary-300);
 }

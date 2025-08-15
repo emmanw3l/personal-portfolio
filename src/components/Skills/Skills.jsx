@@ -23,6 +23,9 @@ import {
   mysql,
   // mongodb,
   Excel,
+  powerBi,
+  tableu,
+  bootstrap
 } from "../../helper/icons";
 
 const skillsData = [
@@ -45,7 +48,10 @@ const skillsData = [
   { name: "Vite", icon: vite, category: "Tools" },
   { name: "VS Code", icon: vscode, category: "Applications" },
   { name: "PyCharm", icon: pycharm, category: "Applications" },
-  {name: "Excel", icon: Excel, category: "Applications"}
+  {name: "Excel", icon: Excel, category: "Applications"},
+  {name: "Power BI", icon: powerBi, category:"Applications"},
+  {name: "Tableu", icon: tableu, category:"Applications"},
+  {name: "Bootstrap", icon: bootstrap, category:"Frameworks"},
 ];
 
 const SkillSection = ({ title, skills }) => (

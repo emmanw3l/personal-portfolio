@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 // import aboutImg from "../../assets/img/img1.jpeg";
 // import { illustration } from "../../helper/icons";
-import illustrate from "../../assets/illustrate.json"
+import illustrate from "../../assets/illustrate.json";
 import "./About.css";
 import { myLinks } from "../../helper/links";
 import { motion } from "framer-motion";
@@ -23,7 +23,7 @@ export default function About() {
             }}
             custom={1}
           >
-            About <span>Me</span>
+            About Me
           </motion.h2>
           <motion.p
             variants={variants1}
@@ -48,9 +48,8 @@ export default function About() {
             custom={3}
             className="about-img"
           >
-
             <Lottie animationData={illustrate} className="about-animation" />
-            
+
             {/* <DotLottieReact src="src\assets\illustrate.json" loop autoplay /> */}
             {/* <img src={illustrate} alt="emmanuel" /> */}
             {/* <img src={aboutImg} alt="emmanuel" /> */}

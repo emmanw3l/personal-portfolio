@@ -101,3 +101,15 @@
     }
 }
 
+
+/* LIGHT/DARK THEME */
+
+body.dark .skills-section .section-title{
+  color: var(--text-color-light);
+}
+body.dark .icon{
+  background-color: var(--color-primary-300);
+}
+body.dark .icons p{
+    color: white;
+}

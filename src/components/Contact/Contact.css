@@ -27,3 +27,13 @@
         letter-spacing: 0;
     }
 }
+
+/* LIGHT/ DARK THEME */
+
+body.dark .sub-text p{
+    color: var(--text-color-light);
+}
+
+body.dark .contact-btn {
+    background-color: var(--color-primary-300);
+}
