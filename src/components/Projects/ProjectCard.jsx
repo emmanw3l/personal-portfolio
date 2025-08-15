@@ -96,7 +96,7 @@ export default function ProjectCard({
         transition={{ duration: 0.3 }}
       />
 
-      <p>{details}</p>
+      <p className="details">{details}</p>
 
       {/* <div className="linkss">
         {liveLink && (

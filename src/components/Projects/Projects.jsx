@@ -9,7 +9,7 @@ export default function Projects() {
       <section className="projects-info">
         <div className="header">
           <h2>My Projects</h2>
-          <p><div className="header-bar"></div>All of my personal projects so far</p>
+          <p><div className="header-bar"></div>All of my personal projects so far (Web)</p>
         </div>
         <div className="project-cards">
           {projectInfo.map((info, i) => {
@@ -21,6 +21,10 @@ export default function Projects() {
             );
           })}
         </div>
+        {/* <div className="header">
+          <h2>My Data analysis Projects</h2>
+          <p><div className="header-bar"></div>All of my personal projects so far </p>
+        </div> */}
       </section>
     </main>
   );
