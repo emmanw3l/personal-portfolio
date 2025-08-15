@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import Github from "../../assets/Icons/Github";
-import Link from "../../assets/Icons/Link";
+// import Github from "../../assets/Icons/Github";
+// import Link from "../../assets/Icons/Link";
 // export default function ProjectCard({
 //   name,
 //   tools,
@@ -59,8 +59,8 @@ export default function ProjectCard({
   tools,
   image,
   details,
-  liveLink,
-  githubLink,
+  // liveLink,
+  // githubLink,
 }) {
   return (
     <motion.div
