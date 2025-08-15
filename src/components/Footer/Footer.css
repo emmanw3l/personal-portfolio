@@ -22,11 +22,14 @@
     font-size: 1.1rem;
     color: initial;
 }
-.footer p{
+
+
+.footer p, .footer span{
     font-size: .85rem;
+    color: var(--text-color);
 }
 .footer .home-links .btn{
-    background: var(--color-primary-100);
+    /* background: var(--color-primary-100); */
     padding: 0;
     border: none;
     background:none;
@@ -37,8 +40,9 @@
 
 }
 .footer .home-links .btn i{
-    color: var(--color-primary-200);
+    color: var(--text-color);
     transition: none;
+    font-size: 1.7rem;
 }
 .footer .home-links .btn i:hover{
     color: black;
@@ -64,4 +68,19 @@
     .footer p{
         font-size: var(--p-font-small-2);
     }
+}
+
+
+/* LIGHT/DARK THEME */
+
+body.dark .footer{
+    background-color: var(--color-primary-300);
+}
+
+body.dark .footer p{
+    color: var(--text-color-light);
+}
+
+body.dark .footer .home-links .btn i:hover{
+    color: var(--text-color);
 }

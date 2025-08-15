@@ -36,6 +36,15 @@ export const projectInfo = [
     "A collection of poems I've written over the years",
     liveLink: "",
     githubLink: "https://github.com/emmanw3l/poetry.git",
+  },
+  {
+    name: "Food website",
+    tools: ["CSS", "Vanilla Javascript"],
+    image: "/images/food.png",
+    details:
+    "A basic boiler plate for a restaurant with toggleable light and dark mode. Nothing fancy",
+    liveLink:"https://food-pi-woad.vercel.app/",
+    githubLink:"https://github.com/emmanw3l/food.git"
   }
 
 ];

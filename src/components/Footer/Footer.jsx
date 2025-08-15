@@ -14,10 +14,10 @@ export default function Footer() {
           <div className="text">
             <div className="logo">
               <p>
-                <a href="#about">Emmanuel.</a>
+                <a href="#about">Emmanuel</a>
               </p>
             </div>
-            <div className="links">
+            <div className="links ">
               <a href="#about">About</a>
               <a href="#skills">Skills</a>
               <a href="#projects">Projects</a>
@@ -50,7 +50,7 @@ export default function Footer() {
               </div>
             </div>
             <p>
-              <span>©</span> 2025 Nwabueze Emmanuel. All Rights Reserved
+              &copy; 2025 Nwabueze Emmanuel. All Rights Reserved
             </p>
           </div>
         </section>

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-// import Github from "../../assets/Icons/Github";
-// import Link from "../../assets/Icons/Link";
+import Github from "../../assets/Icons/Github";
+import Link from "../../assets/Icons/Link";
 // export default function ProjectCard({
 //   name,
 //   tools,
@@ -54,13 +54,14 @@
 
 import { motion } from "framer-motion";
 
+
 export default function ProjectCard({
   name,
   tools,
   image,
   details,
-  // liveLink,
-  // githubLink,
+  liveLink,
+  githubLink,
 }) {
   return (
     <motion.div
@@ -109,7 +110,7 @@ export default function ProjectCard({
           </a>
         )}
       </div> */}
-      {/* <div className="project-icons">
+      <div className="project-icons">
         {liveLink && (
           <div className="live">
             <p>
@@ -128,7 +129,7 @@ export default function ProjectCard({
             </p>
           </div>
         )}
-      </div> */}
+      </div>
     </motion.div>
   );
 }

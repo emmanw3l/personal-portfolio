@@ -1,3 +1,7 @@
+.display-sm{
+  display: none;
+}
+
 .nav {
   position: fixed;
   top: 0;
@@ -36,7 +40,7 @@
 
 .links a{
     color: var(--text-color);
-    font-size: var(--p-font-small-1);
+    font-size: var(--h2-font-small-2);
     position: relative;
 }
 .links a::after{
@@ -139,6 +143,12 @@
         padding: 10px 0;
         overflow: hidden;
       } 
+      .display-sm{
+        display: block;
+      }
+      .display-none{
+        display: none;
+      }
   }
 @media screen and (max-width:450px){
   .nav-info{

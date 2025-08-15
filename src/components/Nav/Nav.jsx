@@ -41,6 +41,9 @@ export default function Nav() {
   return (
     <div className={`nav ${isScrolled ? "nav-scroll" : ""}`}>
       <div className={`nav-info ${isScrolled ? "nav-info-scrolled" : ""}`}>
+        <button className="theme-toggle-btn display-sm" onClick={toggleTheme}>
+          {theme === "dark" ? "🌙" : "☀️"}
+        </button>
         <div className="logo">
           <motion.p
             variants={variants3}
@@ -54,26 +57,57 @@ export default function Nav() {
         </div>
 
         <div className={`links ${isOpen ? "open-links" : ""}`}>
-          <motion.a variants={variants3} initial="initial" whileInView="animate" viewport={{ once: true }} custom={3} href="#about">
+          <motion.a
+            variants={variants3}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            custom={3}
+            href="#about"
+          >
             About
           </motion.a>
-          <motion.a variants={variants3} initial="initial" whileInView="animate" viewport={{ once: true }} custom={4} href="#skills">
+          <motion.a
+            variants={variants3}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            custom={4}
+            href="#skills"
+          >
             Skills
           </motion.a>
-          <motion.a variants={variants3} initial="initial" whileInView="animate" viewport={{ once: true }} custom={5} href="#projects">
+          <motion.a
+            variants={variants3}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            custom={5}
+            href="#projects"
+          >
             Projects
           </motion.a>
-          <motion.a variants={variants3} initial="initial" whileInView="animate" viewport={{ once: true }} custom={6} href="#contact">
+          <motion.a
+            variants={variants3}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            custom={6}
+            href="#contact"
+          >
             Contact
           </motion.a>
         </div>
 
         {/* Light/Dark Mode Button */}
-        <button className="theme-toggle-btn" onClick={toggleTheme}>
+        <button className="theme-toggle-btn display-none" onClick={toggleTheme}>
           {theme === "dark" ? "🌙" : "☀️"}
         </button>
 
-        <div className={`hamburger-menu ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
+        <div
+          className={`hamburger-menu ${isOpen ? "open" : ""}`}
+          onClick={toggleMenu}
+        >
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>
