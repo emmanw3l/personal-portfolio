@@ -16,8 +16,8 @@ export const projectInfo = [
     image: "/images/NBL.png",
     details:
     "[Still uner production]",
-    liveLink: "https://naijabooklovers.vercel.app",
-    githubLink: "#",
+    liveLink: "https://nbl-v2-0.vercel.app/",
+    githubLink: "",
   },
   {
     name: "Personal Portfolio",
