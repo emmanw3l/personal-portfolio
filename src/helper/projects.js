@@ -17,7 +17,7 @@ export const projectInfo = [
     details:
     "[Still uner production]",
     liveLink: "https://nbl-v2-0.vercel.app/",
-    githubLink: "",
+    githubLink: "https://github.com/emmanw3l/nbl-v2.0.git",
   },
   {
     name: "Personal Portfolio",
