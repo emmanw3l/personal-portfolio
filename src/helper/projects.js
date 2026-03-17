@@ -1,6 +1,28 @@
 
 
 export const projectInfo = [
+    {
+    name: "NBL",
+    tools: ["Bootstrap", "React-Router-Dom", "Typescript","Framer-Motion" ],
+    image: "/images/NBL.png",
+    details:
+    "[Still under production]",
+    liveLink: "https://nbl-v2-0.vercel.app/",
+    githubLink: "https://github.com/emmanw3l/nbl-v2.0.git",
+  },
+    {
+    name: "Kingly Delight",
+    tools:["Javascript", "Bootstrap CSS", "Framer-motion"],
+    image: "/images/kingly.png",
+    details:
+    [
+      "Collaboration project between myself and someone else.", 
+    "Kingly delights is a site that deals with selling of all sorts of pastries, parfaits, cakes and many more!! "
+    ],
+    
+    liveLink:"https://kinglydelights.com/",
+    githubLink:"#"
+  },
   {
     name: "Gorilla Coffee",
     tools: ["Bootstrap"],
@@ -10,15 +32,7 @@ export const projectInfo = [
     liveLink: "https://gorilla-coffee-eight.vercel.app/",
     githubLink: "https://github.com/emmanw3l/gorilla_coffee",
   },
-  {
-    name: "NBL",
-    tools: ["Bootstrap", "React-Router-Dom", "Typescript","Framer-Motion" ],
-    image: "/images/NBL.png",
-    details:
-    "[Still uner production]",
-    liveLink: "https://nbl-v2-0.vercel.app/",
-    githubLink: "https://github.com/emmanw3l/nbl-v2.0.git",
-  },
+
   {
     name: "Personal Portfolio",
     tools: ["JavaScript", "React Js", "CSS", "Framer-Motion"],
@@ -46,19 +60,7 @@ export const projectInfo = [
     liveLink:"https://food-pi-woad.vercel.app/",
     githubLink:"https://github.com/emmanw3l/food.git"
   },
-  {
-    name: "Kingly Delight",
-    tools:["Javascript", "Bootstrap CSS", "Framer-motion"],
-    image: "/images/kingly.png",
-    details:
-    [
-      "Collaboration project between myself and someone else.", 
-    "Kingly delights is a site that deals with selling of all sorts of pastries, parfaits, cakes and many more!! "
-    ],
-    
-    liveLink:"https://kinglydelights.com/",
-    githubLink:"#"
-  },
+
   {
     name:"Task Manager",
     tools:["Typescript", "Bootstrap", "Vanilla Js"],

@@ -67,9 +67,9 @@ export default function About() {
             >
               <p>
                 I'm a dedicated and experienced self-taught full-stack web
-                developer based in Anambra, Nigeria. I’m passionate about
+                developer based in Lagos, Nigeria. I’m passionate about
                 building scalable and efficient applications that enhance user
-                experience and solve problems.
+                experience and solve problems. I'm also open to remote and hybrid working conditions if the terms are favourable.
               </p>
               <p>
                 When I'm not building, you can often find me playing chess,
