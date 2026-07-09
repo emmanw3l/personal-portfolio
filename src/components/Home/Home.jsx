@@ -69,7 +69,7 @@ export default function Home() {
           <span>
             <Typewriter
               words={[
-                "Frontend Developer",
+                "Fullstack Developer",
                 "Data Analyst",
                 // "Cyber security expert",
               ]}
