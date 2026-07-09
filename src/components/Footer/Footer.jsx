@@ -4,7 +4,6 @@ import Gmail from "../../assets/Icons/Gmail";
 import Github from "../../assets/Icons/Github";
 import Whatsapp from "../../assets/Icons/Whatsapp";
 // import Twitter from "../../assets/Icons/Twitter";
-import Instagram from "../../assets/Icons/Instagram";
 import { myLinks } from "../../helper/links";
 
 export default function Footer() {
@@ -44,11 +43,7 @@ export default function Footer() {
                   <Whatsapp />
                 </a>
               </div>
-              <div className="btn ">
-                <a href={myLinks.instagram}>
-                  <Instagram />
-                </a>
-              </div>
+
             </div>
             <p>
               &copy; 2025 Nwabueze Emmanuel. All Rights Reserved
