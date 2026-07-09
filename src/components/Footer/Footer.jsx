@@ -3,7 +3,8 @@ import "./Footer.css";
 import Gmail from "../../assets/Icons/Gmail";
 import Github from "../../assets/Icons/Github";
 import Whatsapp from "../../assets/Icons/Whatsapp";
-import Twitter from "../../assets/Icons/Twitter";
+// import Twitter from "../../assets/Icons/Twitter";
+import Instagram from "../../assets/Icons/Instagram";
 import { myLinks } from "../../helper/links";
 
 export default function Footer() {
@@ -44,8 +45,8 @@ export default function Footer() {
                 </a>
               </div>
               <div className="btn ">
-                <a href={myLinks.whatsapp}>
-                  <Twitter />
+                <a href={myLinks.instagram}>
+                  <Instagram />
                 </a>
               </div>
             </div>

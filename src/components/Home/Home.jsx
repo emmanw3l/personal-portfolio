@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import "./Home.css";
 // import Linkedin from "../../assets/Icons/Linkedin";
-import Twitter from "../../assets/Icons/Twitter";
+// import Twitter from "../../assets/Icons/Twitter";
+import Whatsapp from "../../assets/Icons/Whatsapp";
 import Gmail from "../../assets/Icons/Gmail";
 import Github from "../../assets/Icons/Github";
 import NavUp from "../../assets/Icons/NavUp";
@@ -120,8 +121,8 @@ export default function Home() {
             custom={7.5}
             className="btn linkedin"
           >
-            <a href={myLinks.twitter}>
-              <Twitter />
+            <a href={myLinks.whatsapp}>
+              <Whatsapp />
             </a>
           </motion.div>
           <motion.div
