@@ -75,6 +75,14 @@ export const projectInfo = [
     details:"A landing page for a startup media company",
     liveLink: "https://handy-pros1.vercel.app/",
     githubLink: "https://github.com/david-adeniran/handy-pros"
+  }, 
+  {
+    name: "Fantasy boost",
+    tools: ["React Js", "CSS", "Framer-Motion", "React-router-DOM", "Node js"],
+    image: "/images/fantasy-boost.png",
+    details:"Outsourced from fpl database and created a site where you can scout players and rate your team with our in-built ai assistant, chose the best captaincy picks and so much more",
+    livelink: "fantasyboost.xyz",
+    githubLink: "#"
   }
 
 ];
